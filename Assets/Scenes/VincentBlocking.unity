@@ -443,7 +443,7 @@ GameObject:
   - component: {fileID: 2064663440}
   - component: {fileID: 2064663439}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: SphereSnow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -482,7 +482,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5f1b99f35c672014880e527b4e84905e, type: 2}
+  - {fileID: 2100000, guid: 63aacac696663ec48af459c8cdd07602, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -511,7 +511,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064663438}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2064663442
 Transform:
   m_ObjectHideFlags: 0
@@ -519,13 +519,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064663438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.225, y: 0.035, z: 0}
-  m_LocalScale: {x: 4.8447866, y: 4.8447866, z: 4.8447866}
+  m_LocalRotation: {x: -0, y: -0, z: -0.99544686, w: -0.09531863}
+  m_LocalPosition: {x: -0.22499944, y: 9.49, z: 0}
+  m_LocalScale: {x: 11.696284, y: 11.696284, z: 11.696284}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -190.939}
 --- !u!1001 &1426104343831463979
 PrefabInstance:
   m_ObjectHideFlags: 0
