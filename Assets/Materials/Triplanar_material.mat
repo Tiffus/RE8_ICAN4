@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Triplanar_mat
+  m_Shader: {fileID: -6465566751694194690, guid: ce3659dc033c3ec42af485512e461332, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Rock_AO:
+        m_Texture: {fileID: 2800000, guid: d41fc6bd35b544d44897cd143e171073, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Rock_Albedo:
+        m_Texture: {fileID: 2800000, guid: dfbb89be404c48245b452c6b6c71c8bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Rock_Normal:
+        m_Texture: {fileID: 2800000, guid: cc792049448a2d64dbacda2ac615e82b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Rock_Roughness:
+        m_Texture: {fileID: 2800000, guid: 4c4b6b978e20fd84384cb9e7b12816ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Snow_AO:
+        m_Texture: {fileID: 2800000, guid: d1810293fca66454b8a56437e661d32d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Snow_Albedo:
+        m_Texture: {fileID: 2800000, guid: ccbc085ee5561c5439cb1c6aa3af0482, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Snow_Normal:
+        m_Texture: {fileID: 2800000, guid: f6288c5739aa74a4481d79693962016c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Snow_Roughness:
+        m_Texture: {fileID: 2800000, guid: c8860fd66bdb6ab45a9b99a0c2c7c8e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Grass_Threshold: 0.683
+    - Snow_Height: 0.8
+    m_Colors: []
+  m_BuildTextureStacks: []
