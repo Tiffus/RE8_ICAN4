@@ -84,7 +84,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 8900000, guid: 95d31fedf8f674540b1b98e864c2cb21, type: 3}
+        m_Texture: {fileID: 8900000, guid: 2120a06639cf8454c886233678051d05, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpTex:
@@ -117,7 +117,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Exposure: 1.6
+    - _Exposure: 1.8
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
