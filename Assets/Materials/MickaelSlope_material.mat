@@ -64,8 +64,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - YAngle: 0.441
-    - YValue: 1.61
-    - metallic_amount: 0.018
+    - YAngle: 0.43
+    - YValue: 1.73
+    - metallic_amount: 0
     m_Colors: []
   m_BuildTextureStacks: []
