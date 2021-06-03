@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Triplanar_mat
+  m_Name: Triplanar_material
   m_Shader: {fileID: -6465566751694194690, guid: ce3659dc033c3ec42af485512e461332, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -63,6 +63,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Grass_Threshold: 0.683
     - Snow_Height: 0.8
