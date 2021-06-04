@@ -1,9 +1,17 @@
 fileFormatVersion: 2
-guid: 34a39ea48f2c01446958d32dff307534
+guid: 0550e520914da12479803b8188fe7d1e
 ModelImporter:
   serializedVersion: 21100
-  internalIDToNameTable: []
-  externalObjects: {}
+  internalIDToNameTable:
+  - first:
+      74: -7145864884874018965
+    second: Corbeau_Rig|ArmatureAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corbeau
+    second: {fileID: 2100000, guid: e1af6382debb0994e8ea471a1397d33c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -33,10 +41,7 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages:
-    - 0.25
-    - 0.125
-    - 0.01
+    lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
