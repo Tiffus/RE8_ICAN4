@@ -117,7 +117,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Exposure: 1.9
+    - _Exposure: 1.38
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -148,7 +148,7 @@ Material:
     - _GroundColor: {r: 1, g: 1, b: 1, a: 1}
     - _SkyTint: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tint: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0.20392157}
+    - _Tint: {r: 0.32075468, g: 0.31924167, b: 0.31924167, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5068104143393996676
 MonoBehaviour:
