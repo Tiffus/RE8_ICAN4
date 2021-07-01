@@ -23,10 +23,10 @@ public class FPS_Controller : MonoBehaviour
     public float gravity = 9.8f;
  
     //Déplacement
-    Vector3 moveDirection;
+    public Vector3 moveDirection;
  
     //Marche ou court ?
-    private bool isRunning = false;
+    public bool isRunning = false;
  
     //Rotation de la caméra
     float rotationX = 0;
