@@ -2083,10 +2083,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snow
       objectReference: {fileID: 0}
-    - target: {fileID: 3823686032197616581, guid: b86d632984718d54885b0c9505eec6a6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b86d632984718d54885b0c9505eec6a6, type: 3}
 --- !u!1001 &4807129624499435585
