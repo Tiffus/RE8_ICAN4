@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UVMap_02
-    second: {fileID: 2100000, guid: b6798520f90011a469f22776bda4c9a5, type: 2}
+    second: {fileID: 2100000, guid: b7af3b98768151f4fbf684eed0d1be58, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
