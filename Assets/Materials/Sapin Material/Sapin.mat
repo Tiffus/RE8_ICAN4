@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Arbe
+  m_Name: Sapin
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
   m_LightmapFlags: 4
@@ -34,11 +34,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 406a773789ba01f479be3c2e97a5145f, type: 3}
+        m_Texture: {fileID: 2800000, guid: bd8d38f6c0cf3174d8f531d417f4e0da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 6717a2b2ca3ba1c4ba2ad73be9197f54, type: 3}
+        m_Texture: {fileID: 2800000, guid: aedab61aeb9077a4f9699c1512f757b0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -58,7 +58,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 406a773789ba01f479be3c2e97a5145f, type: 3}
+        m_Texture: {fileID: 2800000, guid: bd8d38f6c0cf3174d8f531d417f4e0da, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -66,11 +66,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 245140a213993aa4899ed1213194af06, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0680cfd6c46971d42848355b566b3ac5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 33ce8f5f109d20144b717a5047a3551a, type: 3}
+        m_Texture: {fileID: 2800000, guid: ca0e4b3d90b63cd4f95e0a479f64aecd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
