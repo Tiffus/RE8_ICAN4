@@ -7,28 +7,25 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skybox
-  m_Shader: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _MAPPING_LATITUDE_LONGITUDE_LAYOUT _SUNDISK_HIGH_QUALITY
+  m_Name: toit
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ShaderKeywords: _NORMALMAP _PARALLAXMAP _SPECULAR_SETUP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BackTex:
-        m_Texture: {fileID: 2800000, guid: ea7383450cb0859478e0043dde8642e0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66038214b5c81874b9fffb1059b91dbb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 321113916d848634e8398e98668aaa98, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -43,24 +40,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _DownTex:
-        m_Texture: {fileID: 2800000, guid: ea7383450cb0859478e0043dde8642e0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FrontTex:
-        m_Texture: {fileID: 2800000, guid: ea7383450cb0859478e0043dde8642e0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LeftTex:
-        m_Texture: {fileID: 2800000, guid: ea7383450cb0859478e0043dde8642e0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 66038214b5c81874b9fffb1059b91dbb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -72,23 +57,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _RightTex:
-        m_Texture: {fileID: 2800000, guid: ea7383450cb0859478e0043dde8642e0, type: 3}
+        m_Texture: {fileID: 2800000, guid: bc3fe5384c9bec04d9f093990d6e622a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Tex:
-        m_Texture: {fileID: 8900000, guid: 6764cf6388971774e83d182e7f137428, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _UpTex:
-        m_Texture: {fileID: 2800000, guid: ea7383450cb0859478e0043dde8642e0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -106,9 +79,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AtmosphereThickness: 1.1
     - _Blend: 0
-    - _BumpScale: 1
+    - _BumpScale: 0.5
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -117,40 +89,28 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Exposure: 1.33
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _ImageType: 0
-    - _Layout: 0
-    - _Mapping: 1
     - _Metallic: 0
-    - _MirrorOnBack: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Rotation: 235
-    - _Smoothness: 0.5
+    - _Smoothness: 0.122
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunDisk: 2
-    - _SunSize: 0.225
-    - _SunSizeConvergence: 4.34
     - _Surface: 0
-    - _WorkflowMode: 1
+    - _WorkflowMode: 0
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SkyTint: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tint: {r: 0.32075468, g: 0.31924167, b: 0.31924167, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5068104143393996676
+--- !u!114 &3667552240122026719
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
