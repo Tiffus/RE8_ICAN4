@@ -26,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3012154915014384928}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 0, y: -0.414, z: 0}
+  m_LocalScale: {x: 292.78, y: 292.78, z: 292.78}
   m_Children:
   - {fileID: 5345021407095411941}
   m_Father: {fileID: 4699808785669390645}
@@ -109,8 +109,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4220105691902719047}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 0, y: -0.414, z: 0}
+  m_LocalScale: {x: 292.78, y: 292.78, z: 292.78}
   m_Children:
   - {fileID: 2310529826576925912}
   m_Father: {fileID: 4699808785669390645}
@@ -274,8 +274,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4692865183590145703}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 0, y: -0.414, z: 0}
+  m_LocalScale: {x: 292.78, y: 292.78, z: 292.78}
   m_Children:
   - {fileID: 1011875682697762649}
   m_Father: {fileID: 4699808785669390645}
@@ -357,7 +357,7 @@ Transform:
   m_GameObject: {fileID: 5364565181011975055}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 5509020117789316626}
   - {fileID: 4344814121571927507}
@@ -379,12 +379,12 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.9583626
+  - screenRelativeHeight: 0.53473943
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2782222313581624127}
     - renderer: {fileID: 5452025698796577030}
-  - screenRelativeHeight: 0.7211786
+  - screenRelativeHeight: 0.21270214
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2156473256632625672}

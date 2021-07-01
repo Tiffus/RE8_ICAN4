@@ -77,13 +77,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - AdditionnalPower: 10
-    - FresnelPower: 0.01
+    - AdditionnalPower: 9
+    - FresnelPower: 0.6
     - Metalic: 0
     - NoiseScale: 10
-    - PushOut: 1.5
-    - ScrollSpeed: 0.01
-    - Smoothness: 0.95
+    - PushOut: 1.7
+    - ScrollSpeed: 0.015
+    - Smoothness: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -111,8 +111,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - PrimaryColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
-    - SecondaryColor: {r: 0.37566748, g: 0.38831913, b: 0.3962264, a: 0}
+    - PrimaryColor: {r: 0.5764706, g: 0.58431375, b: 0.5764706, a: 0}
+    - SecondaryColor: {r: 0.44705886, g: 0.47058827, b: 0.47058827, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
