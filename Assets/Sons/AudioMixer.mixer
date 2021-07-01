@@ -33,6 +33,20 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!244 &-7444814680763821283
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 8e1d17159d155ef4daa25e7d57bf0620
+  m_EffectName: Attenuation
+  m_MixLevel: 1dd0b70b82a636448adcae3aa3548fa2
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-4998069367042391318
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -66,6 +80,25 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &-2445154452829487922
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StepRun
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: c746786c9c2af4943a9f020b0f446451
+  m_Children: []
+  m_Volume: ee3a7e08a597f384fbdd075b91a9966e
+  m_Pitch: e9fed307333d78047a276504aef15ce4
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -7444814680763821283}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &-927749931236559715
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -123,6 +156,7 @@ AudioMixerController:
     - e936f4bdbf4f8d74f8cdd0ed0efe83ce
     - 7206960fc31c5cd4e9914bfabbe3fae0
     - 759e620b14c0b434dafa987f85643747
+    - c746786c9c2af4943a9f020b0f446451
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -138,6 +172,7 @@ AudioMixerGroupController:
   m_Children:
   - {fileID: 7236940086167559986}
   - {fileID: -7479698510516443985}
+  - {fileID: -2445154452829487922}
   - {fileID: 2676530983919027397}
   m_Volume: f353d559fac6fda42b7a3e8084607b5d
   m_Pitch: af0733c12daccde4e91dc64ab7924e14
@@ -173,8 +208,9 @@ AudioMixerSnapshotController:
   m_SnapshotID: d872815c40eb3484387d063f07dbdd78
   m_FloatValues:
     1e43e8f197a1c8b4bbb7755520bafbce: -5.7224774
-    7b91fff4e8e6ef440b60e69c3669236e: -22.003613
+    7b91fff4e8e6ef440b60e69c3669236e: -6.133707
     02df2486bee3d084789b18880b098a01: -0.88405514
+    ee3a7e08a597f384fbdd075b91a9966e: -5.7224774
     79b1cf296584ee0468b47db88747976f: -11.944499
     f353d559fac6fda42b7a3e8084607b5d: 0.13552584
     cb65bd2cd39ad6a448d8641b144a4eb2: -2.2889833
