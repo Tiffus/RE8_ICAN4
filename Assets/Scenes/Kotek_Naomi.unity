@@ -567,10 +567,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainDEF
       objectReference: {fileID: 0}
-    - target: {fileID: 1529971661113601129, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1529971661113601134, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -614,22 +610,6 @@ PrefabInstance:
     - target: {fileID: 1529971661113601134, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1529971661113601135, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
-      propertyPath: m_DrawInstanced
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1529971661113601135, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
-      propertyPath: m_MaterialTemplate
-      value: 
-      objectReference: {fileID: 2100000, guid: f4414f23d8f833b4a95d0dd3880b09cb, type: 2}
-    - target: {fileID: 1529971661113601135, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
-      propertyPath: m_DetailObjectDensity
-      value: 0.434
-      objectReference: {fileID: 0}
-    - target: {fileID: 1529971661113601135, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
-      propertyPath: m_DetailObjectDistance
-      value: 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f34028cdde22a74aaf5039494293228, type: 3}
