@@ -14,13 +14,17 @@ public class TriggerCorbeau : MonoBehaviour
 	{
 		if (other.tag == "Player")
 		{
-			if(!wingsSource.isPlaying)
+
+            if (crowScreamSource != null && wingsSource != null)
             {
-				wingsSource.Play();
-            }
-			if (!crowScreamSource.isPlaying)
-			{
-				crowScreamSource.Play();
+				if (!wingsSource.isPlaying)
+				{
+					wingsSource.Play();
+				}
+				if (!crowScreamSource.isPlaying)
+				{
+					crowScreamSource.Play();
+				}
 			}
 
 			anim.SetTrigger("Fly");
