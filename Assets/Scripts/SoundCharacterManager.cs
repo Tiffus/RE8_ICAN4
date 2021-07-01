@@ -18,20 +18,29 @@ public class SoundCharacterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (fps_Controller.isRunning && !runSource.enabled)
+        if (fps_Controller.isRunning )
         {
-            runSource.Play();
-            walkSource.Pause();
+            //Debug.Log("Run");
+            if (!runSource.isPlaying)
+            {
+                runSource.Play();
+            }
+            walkSource.Stop();
         }
-        else if (fps_Controller.moveDirection != Vector3.zero )
+        else if (fps_Controller.moveDirection.x!= 0 && fps_Controller.moveDirection.z != 0)
         {
-            walkSource.Play();
-            runSource.Pause();
+            //Debug.Log("walk");
+            if(!walkSource.isPlaying)
+            {
+                walkSource.Play();
+            }
+            runSource.Stop();
         }
         else
         {
-            runSource.Pause();
-            walkSource.Pause();
+            //Debug.Log("idle");
+            runSource.Stop();
+            walkSource.Stop();
         }
     }
 }
