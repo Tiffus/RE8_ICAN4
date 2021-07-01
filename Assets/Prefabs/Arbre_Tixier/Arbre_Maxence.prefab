@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 7430483318787953110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4415480651646022479}
   m_Father: {fileID: 0}
@@ -82,10 +82,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b5f58ae6a967aa241b57954b69131d9f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 673924faa5d90ec45940a0d82b4b860d, type: 2}
     - target: {fileID: 919132149155446097, guid: b5f58ae6a967aa241b57954b69131d9f, type: 3}
       propertyPath: m_Name
       value: Arbre_Maxence
       objectReference: {fileID: 0}
+    - target: {fileID: 1446317025356153247, guid: b5f58ae6a967aa241b57954b69131d9f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 97848d12d06a1ce43a13394b8fd27217, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5f58ae6a967aa241b57954b69131d9f, type: 3}
 --- !u!4 &4415480651646022479 stripped
