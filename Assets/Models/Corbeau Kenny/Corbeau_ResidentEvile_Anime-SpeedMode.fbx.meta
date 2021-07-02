@@ -1,17 +1,12 @@
 fileFormatVersion: 2
-guid: 0550e520914da12479803b8188fe7d1e
+guid: 7184ca40bfc5fe849b6a2c4c902af43c
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
       74: -7145864884874018965
     second: Corbeau_Rig|ArmatureAction
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Corbeau
-    second: {fileID: 2100000, guid: e1af6382debb0994e8ea471a1397d33c, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -53,7 +48,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -65,10 +60,10 @@ ModelImporter:
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15
+    secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVMarginMethod: 1
-    secondaryUVMinLightmapResolution: 20
+    secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
