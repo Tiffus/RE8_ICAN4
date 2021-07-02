@@ -73,19 +73,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 0.68
   contrast:
-    m_OverrideState: 0
-    m_Value: -4
+    m_OverrideState: 1
+    m_Value: 3.8
     min: -100
     max: 100
   colorFilter:
-    m_OverrideState: 1
-    m_Value: {r: 1.2862746, g: 1.3411765, b: 1.4039216, a: 1}
+    m_OverrideState: 0
+    m_Value: {r: 0.6870773, g: 0.690835, b: 0.754717, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
