@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4398023788596805573
+--- !u!1 &3706764573508399931
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3910034842585654655}
-  - component: {fileID: 138732444575132378}
-  - component: {fileID: 2740465824017423888}
+  - component: {fileID: 4051764193568237953}
+  - component: {fileID: 1122831738323019300}
+  - component: {fileID: 2914373001130005230}
   m_Layer: 0
-  m_Name: Medieval_House_Modul01
+  m_Name: MedievalHouse_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3910034842585654655
+--- !u!4 &4051764193568237953
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4398023788596805573}
+  m_GameObject: {fileID: 3706764573508399931}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.4, y: 0, z: 9.95}
+  m_LocalPosition: {x: -0.269, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &138732444575132378
+--- !u!33 &1122831738323019300
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4398023788596805573}
-  m_Mesh: {fileID: -5625087843844662386, guid: 9bae43300ca4dfb42a999b6556fb4825, type: 3}
---- !u!23 &2740465824017423888
+  m_GameObject: {fileID: 3706764573508399931}
+  m_Mesh: {fileID: -23310919749131841, guid: ce9d8e24212aeb846b00455ef65cd175, type: 3}
+--- !u!23 &2914373001130005230
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4398023788596805573}
+  m_GameObject: {fileID: 3706764573508399931}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -59,10 +60,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 533e7eb3880e01e4bbbe09c50b2fd434, type: 2}
-  - {fileID: 2100000, guid: 207d1eecb6a602e4fa3d6370def35ff5, type: 2}
-  - {fileID: 2100000, guid: 21ed3b39dc990b94b8fdea79e2a0f1d7, type: 2}
-  - {fileID: 2100000, guid: f9314a44a43679745b7283a75f7047f2, type: 2}
+  - {fileID: 2100000, guid: 80072ebbb16340e409bd1a245970cd0d, type: 2}
+  - {fileID: 2100000, guid: be650f41df4e4d74a9d9482496927b37, type: 2}
+  - {fileID: 2100000, guid: c8d79711fb4e05442b26ada9e63bcaa6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
