@@ -8,6 +8,6 @@ public class AileMoulinRotator : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(Vector3.forward * Time.deltaTime * smoothRotation);
+        transform.Rotate(-Vector3.right * Time.deltaTime * smoothRotation);
     }
 }
